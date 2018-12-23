@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  onlyOdd = false;
+  title = 'This is directive demo application.';
+  oddNumbers = [1, 3, 5];
+  evenNumbers = [2, 4];
+  value = 100;
 }
